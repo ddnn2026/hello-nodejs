@@ -9,9 +9,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-    }
-    stages {
-        stage('Example') {
+        stage('Clone') {
             steps {
                 git 'https://github.com/ddnn2026/hello-nodejs.git'
             }
