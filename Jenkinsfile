@@ -11,10 +11,10 @@ pipeline {
         }
     }
     stages {
-    stage('Clone') {
-        steps {
-            git 'https://github.com/ddnn2026/hello-nodejs.git'
+        stage('Example') {
+            steps {
+                git 'https://github.com/ddnn2026/hello-nodejs.git'
+            }
         }
-    }
     }
 }
